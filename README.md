@@ -1,3 +1,16 @@
+## Docker 
+To build and run dev 
+### docker build .
+### docker run -p 3000:3000 <<build id>>
+
+To build and run production 
+### docker build .
+### docker run -p 8080:80 <<build id>>
+
+Open Chrome
+
+### http://localhost:8080/
+------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
